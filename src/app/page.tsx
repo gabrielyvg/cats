@@ -71,10 +71,10 @@ export default function Home() {
             <section className='max-w-2xl mx-auto my-16 relative'>
                 <div className='bg-red-400 rounded-2xl'>
                     <div className='relative'>
-                        <img className='rounded-2xl hover:opacity-95 z-10 transition duration-700 ease-in-out' src="/image-section.jpg" alt="" />
+                        <img className='rounded-2xl hover:opacity-90 z-10 transition duration-700 ease-in-out' src="/image-section.jpg" alt="" />
                     </div>
-                    <div className='absolute bottom-0 left-0 mr-40'>
-                        <img src='/image-section-side.png' className='z-50 w-40' />
+                    <div className='absolute bottom-0 left-0 -ml-16'>
+                        <img src='/image-section-side.png' className='z-50 w-48' />
                     </div>
                 </div>
             </section>

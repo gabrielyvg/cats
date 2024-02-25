@@ -4,7 +4,7 @@ export const Header = () => {
     return (
         <header
             id='header'
-            className='top-0 z-10 backdrop-blur'
+            className='top-0 z-10 backdrop-blur sticky'
         >
             <nav className="">
                 <div className="flex justify-between mx-10">
