@@ -44,7 +44,7 @@ export default function Form() {
   };
 
   return (
-    <div className="w-1/2 ml-16">
+    <div className="md:w-1/2 md:ml-16 mt-8 md:mt-0 mx-4 md:mx-0">
       <div className="border-black border-solid border rounded-2xl">
         <div className="m-10">
           <h2 className="text-2xl font-bold mb-2">Entre em contato conosco!</h2>
