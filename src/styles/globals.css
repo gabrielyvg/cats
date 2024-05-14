@@ -2,5 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+:root {}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E5E5E7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fca5a5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d68b8b;
 }
