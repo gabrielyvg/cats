@@ -2,6 +2,7 @@
 import mock from '@/utils/mock';
 import { FaArrowDownLong } from "react-icons/fa6";
 import { motion } from 'framer-motion';
+import Form from '@/components/form';
 
 export default function Home() {
     return (
@@ -45,13 +46,13 @@ export default function Home() {
                             />
                         </div>
                     ))}
-                    <div className='flex relative justify-center border-4 bg-gradient-to-t from-red-400 to-red-200 group 
+                    <a href='#contato' className='flex relative justify-center border-4 bg-gradient-to-t from-red-400 to-red-200 group 
                         hover:from-red-300 hover:to-red-200 opacity-95 hover:opacity-100 h-80 w-60 rounded-2xl m-4 cursor-pointer'>
                         <span className='flex flex-col items-center justify-center text-center font-semibold text-2xl group-hover:scale-105 transition-transform duration-700 ease-in-out'>
                             Conheça nossos <br /> produtos
                             <FaArrowDownLong className="mt-2 text-xl" />
                         </span>
-                    </div>
+                    </a>
                 </div>
             </section>
             <section id='sobre' className='flex justify-center'>
@@ -68,15 +69,16 @@ export default function Home() {
                     </div>
                 </div>
             </section >
-            <section className='max-w-2xl mx-auto my-16 relative'>
-                <div className='bg-red-400 rounded-2xl'>
+            <section id='contato' className='my-16 relative grid grid-cols-2 items-center'>
+                <div className='rounded-2xl justify-self-end'>
                     <div className='relative'>
                         <img className='rounded-2xl hover:opacity-90 z-10 transition duration-700 ease-in-out' src="/image-section.jpg" alt="" />
                     </div>
-                    <div className='absolute bottom-0 left-0 -ml-16'>
+                    <div className='absolute bottom-0'>
                         <img src='/image-section-side.png' className='z-50 w-48' />
                     </div>
                 </div>
+                <Form />
             </section>
         </>
     )

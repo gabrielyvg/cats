@@ -1,7 +1,7 @@
 export const Footer = () => (
-  <footer className='fixed bottom-0 z-10'>
-   
-    <hr className='my-16 h-1 border-2 bg-white/70 sm:my-20 md:my-24' />
-
+  <footer className="flex justify-center items-center text-center w-full h-40 bg-red-400">
+    <div className="flex items-center">
+      <h1 className="text-white">Cats - Copyright ® 2024 - Todos os Direitos Reservados.</h1>
+    </div>
   </footer>
 );
